@@ -9,9 +9,9 @@
     <meta name="author" content="PZJH">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/16dfb2b85e.js" crossorigin="anonymous"></script>
-    <title>BLANK.</title>
+    <title>BLANK. Booking form.</title>
 </head>
-<body>
+<body class="form-background">
     <header>
         <div class="header-img">
          <div>
@@ -20,18 +20,61 @@
           </a>
          </div>
         </div>
-        <div class="flex-box">
+        <div>
          <nav>
-          <div class="navbar">
-           <a href="index.html">Home</a>
-           <a href="#">Gallery</a>
-           <a href="menu.html">Menu</a>
-           <a href="form.html">Booking</a>
+          <div class="navbar flexbox-nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="#">Gallery</a></div>
+            <div><a href="menu.html">Menu</a></div>
+            <div><a href="form.html">Booking</a></div>
            </div>
          </nav>
         </div>
     </header>
-    <section></section>
+    <section>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+
+        <fieldset>
+            <legend>Contact Information.</legend>
+
+            <div>
+                <label for="name-input">Name</label><br>
+                <input id="name-input" type="text" name="full_name" placeholder="Full name" required>
+            </div>
+            <div>
+                <label for="email-input">Email</label><br>
+                <input id="email-input" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="telephone-input">Phone Number</label><br>
+                <input id="telephone-input" type="tel" name="phone" placeholder="123-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Booking details.</legend>
+            <div>
+                <label for="datetime-input">Date & Time</label><br>
+                <input id="datetime-input" type="datetime-local" name="time" required>
+            </div>
+            <div>
+                <label for="number-input">Booking for</label>
+                <input id="number-input" type="number" name="number" placeholder="1-8" min="1" max="8" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Extra Information.</legend>
+            <div>
+                <label for="extra-text"></label><br>
+                <textarea id="extra-text" name="extra-text" rows="15px" cols="55px" placeholder="Extra information. Allergies, larger group etc."></textarea>
+            </div>
+            <div>
+                <input id="submit" type="submit" name="submit">
+                <input id="reset" type="reset" name="reset">
+            </div>
+        </fieldset>
+    </form>
+
+    </section>
 
     <footer class="flex-footer">
         <div class="socials">

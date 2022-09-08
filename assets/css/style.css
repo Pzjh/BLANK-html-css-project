@@ -87,3 +87,34 @@ footer {
     margin: 45px;
 }
 
+legend {
+    margin : 20px 0 10px 0;
+    font-size : large;
+    font-weight : 600;
+}
+
+
+form {
+    width : 700px;
+    padding : 25px;
+    border-radius : 8px;
+    margin : 25px auto;
+    background-color : #856A1E;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    background-color: #A8725C;
+    border: none;
+    padding: 0.75rem;
+}
+
+input[type=reset] {
+    border-radius: 5px;
+    padding: 0.25rem;
+    border: none;
+}
