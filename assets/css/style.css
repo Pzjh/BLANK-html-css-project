@@ -23,6 +23,13 @@ header h1 {
     width: auto;
 }
 
+.flexbox-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -54,3 +61,29 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer {
+    height: 150px;
+    background-color: #333;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials i {
+    margin: 2%;
+    padding: 8%;
+    font-size: 200%;
+    color: #f8f4f4;
+    margin: 45px;
+}
+
