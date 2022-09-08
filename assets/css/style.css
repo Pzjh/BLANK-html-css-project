@@ -4,6 +4,7 @@
 
   body {
     font-style: Raleway, sans-serif;
+    margin: 0;
   }
 
  
@@ -14,8 +15,8 @@ header h1 {
     display: inline-block;
     position: absolute;
     font-size: 300%;
-    top: 50%;
-    left: 50%;
+    text-align: center;
+    padding: 32px;
 }
 
 .container {
@@ -117,4 +118,22 @@ input[type=reset] {
     border-radius: 5px;
     padding: 0.25rem;
     border: none;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery-column {
+    width: 100%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
