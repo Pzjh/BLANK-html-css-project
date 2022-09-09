@@ -153,7 +153,6 @@ input[type=reset] {
 .flex-home {
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -161,7 +160,7 @@ input[type=reset] {
 .flex-right-home {
     order: 3;
     flex: 35%;
-    padding: 40px;
+    padding: 35px;
     background-color: #A38E65;
 }
 
@@ -169,7 +168,7 @@ input[type=reset] {
     order: 2;
     flex: 30%;
     padding: 35px;
-    background-color: #FFF9EE;
+    background-color: #bbb3a3;
 }
 
 .flex-left-home {
@@ -193,4 +192,28 @@ input[type=reset] {
     font-size: 120%;
     margin: 5px;
 }
+
+#backmenu {
+    width: 100%;
+    position: relative;
+    background-image: url("/assets/images/Menu-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    min-height: 350px;
+    padding: 100px;
+    background-color: #464646;
+}
+
+#backmenu div {
+    color: #FFF8EA;
+}
+
+
 /* Media queries*/
+
+@media screen and (max-width: 800px) {
+
+
+}
