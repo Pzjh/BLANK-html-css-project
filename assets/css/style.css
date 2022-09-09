@@ -5,7 +5,7 @@
   }
 
   body {
-    font-style: Raleway,sans-serif;
+    font-family: Raleway,sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -208,7 +208,14 @@ input[type=reset] {
 
 #backmenu div {
     color: #FFF8EA;
-    padding-top: 25%;
+    padding-top: 30%;
+}
+
+.w3c {
+    font-family: Anton, sans-serif;
+    color:black;
+    align-items: center;
+    justify-content: center;
 }
 
 
