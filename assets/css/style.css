@@ -108,8 +108,9 @@ form {
     width : 700px;
     padding : 25px;
     border-radius : 8px;
-    margin : 25px auto;
     background-color : #856A1E;
+    color: silver;
+    margin: 10% 20% 10% 20%;
 }
 
 label {
@@ -200,7 +201,6 @@ input[type=reset] {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /*background-attachment: fixed;*/
     min-height: 350px;
     padding: 100px;
     background-color: #464646;
@@ -208,6 +208,7 @@ input[type=reset] {
 
 #backmenu div {
     color: #FFF8EA;
+    padding-top: 25%;
 }
 
 
@@ -215,5 +216,42 @@ input[type=reset] {
 
 @media screen and (max-width: 800px) {
 
+    .flex-home {
+        flex-direction: column-reverse;
+    }
+
+     .flex-left-home {
+        flex: 100%;
+     }
+
+     .flex-center-home {
+        flex: 100%;
+     }
+
+     .flex-right-home {
+        flex: 100%;
+     }
+
+     .gallery-column {
+        width: 100%;
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+        margin-left: 4px;
+     }
+
+     #backmenu {
+        background-attachment: fixed;
+     }
+
+     form {
+        width: 350px;
+        margin: 0;
+     }
+
+     #extra-text {
+        width: 80%;
+     }
 
 }
+
