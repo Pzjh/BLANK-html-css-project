@@ -30,7 +30,24 @@ This applies to **all** users no matter if they are new visitors or recurring us
 
 ## Features
 
+### Todays Features
 
+* The website features a Home page that presents the user with information about the restaurant and a gallery  
+with pictures from the restaurant to give the user an idea of what to expect.
+* The Navigation bar gives the user easy access to all of the sites pages.
+* The Menu page shows the user what is currently on the Menu.
+* The Booking page contains a form in wich the user can make a reservation.
+* The footer gives the user easy access to all of the restaurants social media accounts.
+
+### Coming Updates
+
+* In coming updates we are looking to add a calendar function in the booking page which will let the user  
+see when a reservation is possible and and if the restaurant is fully booked on any dates and times.
+
+* There is also an idea about expanding the Gallery to be its own page.
+
+* If the restaurants customers show an interest in the restaurants farm a page detailing how we work with  
+creating our ingredients might also be created.
 
 ## Technologies
 
@@ -53,6 +70,7 @@ This applies to **all** users no matter if they are new visitors or recurring us
 
 ---
 
+
 ## Testing
 
 ---
@@ -73,6 +91,31 @@ The W3C validators W3C Markup Validator and W3C CSS Validator were used during t
 
 ---
 
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:  
+    * In the GitHub repository, navigate to the Settings tab  
+    * From the source section drop-down menu, select the Master Branch  
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed  
+    ribbon display to indicate the successful deployment.
+
+---
+
+## Credits
+
+### Content
+
+* The text was written by PZJH.
+* The Menu item were taken by a local restaurant in my area since  
+this restaurant since doesn't actually have a menu [Miss Voon](https://missvoon.se/menyer/)  
+* The icons used were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+* The photos and images used for this project were taken from [Pexels](https://www.pexels.com/sv-se/) 
+[Stockvault](https://www.stockvault.net/) [Stocksnap](https://stocksnap.io/)
+
+---
 
 
 
